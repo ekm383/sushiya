@@ -4,7 +4,7 @@
     "intro": "We serve the best Sushi and Poke in Honolulu. Available for takeout, dine-in, or delivery. Sushiya is conveniently located in the heart of Kaimuki with plenty of free parking.",
     "copyright": "Copyright 2020 Sushiya",
     "logo": "../images/icon.png",
-    "hours": ["Daily 10:00am - 7:00pm", "Sun Closed"],
+    "hours": ["Mon - Sat 10:00am - 7:00pm", "Sun Closed"],
     "phone": "(808) 735-9494",
     "street": "3506 Waialae Ave #B",
     "city": "Honolulu, HI 96816",
