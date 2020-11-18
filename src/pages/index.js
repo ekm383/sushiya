@@ -8,6 +8,7 @@ import Section from "../components/globals/section/Section"
 import Map from "../components/Map"
 import Contact from "../components/ContactForm"
 import Button from "../components/globals/button/Button"
+import Promos from "../components/Promos"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,9 @@ const IndexPage = () => {
           </Banner>
         </Section>
       </HeaderIndex>
+      <Section>
+        <Promos />
+      </Section>
       <Section style={{ padding: "4rem 0rem 2rem 0rem" }}>
         <Contact />
       </Section>
