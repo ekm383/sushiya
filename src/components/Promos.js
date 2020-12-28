@@ -19,15 +19,12 @@ const Promos = () => {
   return (
     <StyledFlyer>
       <div className="promo-copy">
-        <h2>Thanksgiving Day Giveaway! </h2>
-        <p>
-          <b>FREE BENTOS</b> for the first 50 customers to visit our store on
-          Thanksgiving Day!
-        </p>
+        <h2>Open New Years Eve</h2>
+        <p>Closed January 1st and 2nd</p>
       </div>
-      <a href="https://www.grindztogo.com/single.php/order/restaurant/sushiya/42?takeout=1">
+      {/* <a href="https://www.grindztogo.com/single.php/order/restaurant/sushiya/42?takeout=1">
         <Img className="promo-image" fluid={thanksImage} alt="promotion" />
-      </a>
+      </a> */}
     </StyledFlyer>
   )
 }
@@ -43,6 +40,7 @@ const StyledFlyer = styled.div`
     width: 100%;
     margin: 0rem auto;
     h2 {
+      font-size: 3rem;
       font-family: "Poppins";
       line-height: 3.5rem;
       text-align: center;
