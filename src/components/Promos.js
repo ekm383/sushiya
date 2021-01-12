@@ -1,32 +1,9 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
+
 import styled from "styled-components"
 
 const Promos = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      thanks: file(relativePath: { eq: "00357_Sushiya.jpg" }) {
-        childImageSharp {
-          fluid(quality: 90, maxWidth: 800) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
-  const thanksImage = data.thanks.childImageSharp.fluid
-  return (
-    <StyledFlyer>
-      <div className="promo-copy">
-        <h2>Open New Years Eve</h2>
-        <p>Closed January 1st and 2nd</p>
-      </div>
-      {/* <a href="https://www.grindztogo.com/single.php/order/restaurant/sushiya/42?takeout=1">
-        <Img className="promo-image" fluid={thanksImage} alt="promotion" />
-      </a> */}
-    </StyledFlyer>
-  )
+  return <StyledFlyer></StyledFlyer>
 }
 
 const StyledFlyer = styled.div`
